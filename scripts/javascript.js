@@ -1,3 +1,4 @@
-function sayHi() {
-  alert("Hi!");
-}  
+document.getElementById('membership-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for signing up!');
+});
