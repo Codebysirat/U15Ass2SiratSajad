@@ -1,6 +1,6 @@
 /* Reset default margin and padding for a consistent layout */
 body {
-  font-family:  Bodoni FLF, /* Sets the default font style */
+  font-family: Bodoni FLF; /* Sets the default font style */
   margin: 0;
   padding: 0;
   text-align: center; /* Centers text globally */
@@ -10,7 +10,7 @@ body {
 header {
   display: flex; /* Uses flexbox for layout */
   justify-content: space-between; /* Pushes content to opposite sides */
-  align-items: center; /* Aligns item vertically */
+  align-items: center; /* Aligns items vertically */
   padding: 20px;
   background-color: #FDFCE9; /* Light yellow background */
   border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
@@ -34,13 +34,12 @@ nav a {
 }
 
 /* Main Content Section Styling */
-
 .content {
     background-color: #FDFCE9; /* Light yellow background */
     padding: 20px; /* Add space inside the main section */
-    border-radius: 10px; /* Round cornrs */
+    border-radius: 10px; /* Round corners */
     text-align: center; /* Center text */
-    width: 100%; /* Full Width*/
+    width: 100%; /* Full width */
     max-width: 100%; /* Ensure it doesn't exceed the viewport */
     margin: 0 auto; /* Center horizontally */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add a subtle shadow */
@@ -49,17 +48,16 @@ nav a {
 
 .content h2 {
     color: #333; /* Dark grey color for heading */
-    font-size: 24px; /* Adjust fonr size */
+    font-size: 24px; /* Adjust font size */
 }
 
 .content p {
-    color: #666 ; /* Medium gray for paragraph text */
-    font-size: 10px; /* * Adjust fonr size */
+    color: #666; /* Medium gray for paragraph text */
+    font-size: 16px; /* Adjust font size */
     line-height: 1.5; /* Improve readability */
     max-width: 80%; /* Limit text width for better readability */
     margin: 0 auto; /* Center text */
 }
-
 
 .sections {
     display: flex; /* Enables side-by-side layout */
@@ -69,7 +67,7 @@ nav a {
 
 /* Individual Section Styling */
 .section {
-    width: 45%; /% Sets equal width for both sections */
+    width: 45%; /* Sets equal width for both sections */
     padding: 20px;
     border: 1px solid #ddd; /* Adds a subtle border */
     background-color: #f9f9f9; /* Light background for readability */
