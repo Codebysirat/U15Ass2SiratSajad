@@ -11,7 +11,7 @@ header {
   display: flex; /* Uses flexbox for layout */
   justify-content: space-between; /* Pushes content to opposite sides */
   align-items: center; /* Aligns items vertically */
-  padding: 20px;
+  padding: 15px;
   background-color: #333; /* Dark background to match footer */
   border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
   color: white; /* Sets font color to white */
