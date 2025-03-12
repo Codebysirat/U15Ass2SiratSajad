@@ -52,7 +52,7 @@ nav a {
 }
 
 .content p {
-  color: #666; /* Medium gray for paragraph text */
+  color: #CCD3D2; /* light gray for paragraph text */
   font-size: 16px; /* Adjust font size */
   line-height: 1.5; /* Improve readability */
   max-width: 80%; /* Limit text width for better readability */
