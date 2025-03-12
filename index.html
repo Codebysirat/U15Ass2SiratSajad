@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"> <!-- Sets the character encoding for the document -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper responsive behaviour on mobile devices -->
-    <title>MemberShip</title> <!-- Sets the title of the webpage -->
+    <title>HomePage</title> <!-- Sets the title of the webpage -->
     <link href="css/style.css" rel="stylesheet"> <!-- Links the external CSS file -->
     <script src="scripts/javascripts.js"></script> <!-- Links the external JS file -->
 </head>
@@ -16,25 +16,30 @@
 
      <!-- Navigation Bar -->
      <nav>
-          <a href="index.html" aria-label="Home">Home</a> <!-- Navigation link to Home page -->
+          <a href="index.html" aria-label="Home" class="active">Home</a> <!-- Navigation link to Home page -->
           <a href="pages/aboutus.html" aria-label="About Us">About Us</a> <!-- Navigation link to About page -->
-          <a href="pages/membership.html" aria-label="Members" class="active">Members</a> <!-- Navigation link to Membership page -->
+          <a href="pages/membership.html" aria-label="Members">Members</a> <!-- Navigation link to Membership page -->
           <a href="pages/courses.html" aria-label="Courses">Courses</a> <!-- Navigation link to Course page -->
           <a href="pages/educationgame.html" aria-label="Education Games">Education Games</a> <!-- Navigation link to Education Games page -->
           <a href="pages/events.html" aria-label="Events">Events</a> <!-- Navigation link to Event page -->
      </nav>
-      
-    <!-- Main Content Area -->
-    <main>
-         <h2>Welcome to Our MemberShip</h2> <!-- Main heading for content section -->
-         <p>This is the main content area where information is displayed.</p> <!-- Short description of the page -->
-    </main>
 
-    <!-- Content Section -->
-    <div class="content">
-         <h2>Content</h2> <!-- Main content section heading -->
-         <p>Content for the first section. Together, we can make a difference.</p> <!-- Content for the first section -->
-    </div>
+    <!-- Main Content Area with Two Sections -->
+    <main>
+         <h2>Welcome to Our Website</h2> <!-- Main heading for content section -->
+         <p>This is the main content area where information is displayed.</p> <!-- Short description of the page -->
+
+         <div class="sections"> <!-- Container to hold two sections side by side -->
+             <section class="section">
+                 <h3>Section 1</h3> <!-- Heading for the first section -->
+                 <p>Content for the first section. Together, we can make a difference.</p> <!-- Content for the first section -->
+             </section>
+             <section class="section">
+                  <h3>Section 2</h3> <!-- Heading for the second section -->
+                 <p>Content for the second section.</p> <!-- Content for the second section -->
+             </section>
+         </div>
+    </main>
 
     <!-- Footer Section -->
     <footer>
@@ -42,6 +47,7 @@
     </footer>
 </body>
 </html>
+
 
  
 
