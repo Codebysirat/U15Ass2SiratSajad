@@ -69,7 +69,7 @@ nav a {
 /* Individual Section Styling */
 .section {
   width: 45%; /* Sets equal width for both sections */
-  padding: 20px;
+  padding: 40px;
   border: 1px solid #ddd; /* Adds a subtle border */
   background-color: #f9f9f9; /* Light background for readability */
 }
