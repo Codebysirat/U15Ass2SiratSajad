@@ -14,6 +14,7 @@ header {
   padding: 20px;
   background-color: #333; /* Dark background to match footer */
   border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
+  color: white; /* Sets font color to white */
 }
 
 /* Logo Styling */
