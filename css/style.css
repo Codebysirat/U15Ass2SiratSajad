@@ -55,7 +55,7 @@ nav a {
   color: #CCD3D2; /* light gray for paragraph text */
   font-size: 16px; /* Adjust font size */
   line-height: 1.5; /* Improve readability */
-  max-width: 80%; /* Limit text width for better readability */
+  max-width: 140%; /* Limit text width for better readability */
   margin: 0 auto; /* Center text */
 }
 
