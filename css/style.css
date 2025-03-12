@@ -19,7 +19,7 @@ header {
 
 /* Logo Styling */
 .logo {
-  max-width: 100px; /* Restricts logo size */
+  max-width: 150px; /* Restricts logo size */
 }
 
 /* Navigation Bar styling */
@@ -36,7 +36,7 @@ nav a {
 
 /* Main Content Section Styling */
 .content {
-  background-color: #FDFCE9; /* Light yellow background */
+  background-color: #DBDBD6; /* Light Gainsboro background */
   padding: 20px; /* Add space inside the main section */
   border-radius: 10px; /* Round corners */
   text-align: center; /* Center text */
