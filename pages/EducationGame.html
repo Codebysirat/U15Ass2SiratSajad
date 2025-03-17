@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership</title>
+    <link href="../css/style.css" rel="stylesheet"> <!-- Links the external CSS file -->
+</head>
+<body>
+    <!-- Header Section with logo -->
+    <header>
+        <h1>Slovenské Vzdelávacie Centrum</h1>
+        <img src="../images/logo.png" alt="Logo" class="logo">
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="../index.html" aria-label="Home">Home</a>
+        <a href="aboutus.html" aria-label="About Us">About Us</a>
+        <a href="membership.html" aria-label="Members" class="active">Membership</a>
+        <a href="courses.html" aria-label="Courses">Courses</a>
+        <a href="educationgames.html" aria-label="Education Games">Education Games</a>
+        <a href="events.html" aria-label="Events">Events</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Become a Member</h2>
+        <p>Join Slovenské Vzdelávacie Centrum and become part of a community dedicated to fostering Slovak culture, language, and traditions.</p>
+
+        <!-- Benefits Section -->
+        <section class="section">
+            <h3>Membership Benefits</h3>
+            <ul>
+                <li>Access to exclusive cultural events and workshops</li>
+                <li>Discounts on courses and programs</li>
+                <li>Networking opportunities with Slovak families in the community</li>
+                <li>A platform to celebrate and promote Slovak heritage</li>
+            </ul>
+        </section>
+
+        <!-- Membership Form -->
+        <section class="section">
+            <h3>Join Us Today</h3>
+            <form action="submit_membership.php" method="POST"> <!-- Replace with actual backend -->
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="membershipType">Membership Type:</label>
+                <select id="membershipType" name="membershipType">
+                    <option value="individual">Individual</option>
+                    <option value="family">Family</option>
+                    <option value="student">Student</option>
+                </select>
+
+                <label for="comments">Comments or Questions:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Slovenské Vzdelávacie Centrum. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
