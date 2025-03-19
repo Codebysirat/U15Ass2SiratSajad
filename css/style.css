@@ -19,7 +19,7 @@ header {
 
 /* Logo Styling */
 .logo {
-  max-width: 220px; /* Restricts logo size */
+  max-width: 230px; /* Restricts logo size */
 }
 
 /* Navigation Bar styling */
@@ -37,7 +37,7 @@ nav a {
 /* Main Content Section Styling */
 .content {
   background-color: #D0F3D5; /* Light Honeydew background */
-  padding: 20px; /* Add space inside the main section */
+  padding: 40px; /* Add space inside the main section */
   border-radius: 10px; /* Round corners */
   text-align: center; /* Center text */
   width: 150%; /* Full width */
