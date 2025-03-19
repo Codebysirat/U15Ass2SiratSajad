@@ -38,7 +38,7 @@ nav a {
 .content {
   background-color: #D0F3D5; /* Light Honeydew background */
   padding: 50px; /* Add space inside the main section */
-  border-radius: 10px; /* Round corners */
+  border-radius: 15px; /* Round corners */
   text-align: center; /* Center text */
   width: 170%; /* Full width */
   margin: 0 auto; /* Center horizontally */
